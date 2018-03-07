@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jokerwan.autotextview.MainActivity"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="若文字内容的长度超出TextView的宽度，则根据TextView的宽度自适应字体大小"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <com.jokerwan.autotextview.AutoTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="这是测试文本哈哈哈哈啊啊啊啊"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:background="#e9e9e9"
+        android:layout_marginTop="50dp"/>
+
+    <com.jokerwan.autotextview.AutoTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="这是测试文本哈哈哈哈"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="#e9e9e9" />
+
+    <com.jokerwan.autotextview.AutoTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="这是测试文本"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="#e9e9e9"/>
+
+    <com.jokerwan.autotextview.AutoTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="这是测试"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="#e9e9e9"/>
+
+</LinearLayout>
